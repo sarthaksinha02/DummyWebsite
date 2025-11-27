@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @custom-variant dark (&:is(.dark *));
 
+.clip-hero {
+  clip-path: polygon(35% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

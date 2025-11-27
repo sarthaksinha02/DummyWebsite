@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function BulletImage(){
   return (
-    <section className="bg-white py-12">
+    <section className="bg-white py-12 border-2 m-2">
       <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-6 items-start">
         <div>
           <h3 className="text-blue-600 text-sm">Lorem ipsum dolor sit amet</h3>
@@ -51,6 +51,8 @@ export default function BulletImage(){
             </div>
         </motion.li>
       </div>
+              <div className="mt-16 w-full h-3 bg-linear-to-r from-blue-600 via-green-500 to-purple-700"></div>
+
     </section>
   );
 }

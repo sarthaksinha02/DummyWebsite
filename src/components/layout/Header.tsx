@@ -28,7 +28,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="top-0 z-40">
+    <header className="relative z-50 bg-white w-full">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
         {/* LEFT */}

@@ -34,7 +34,7 @@ export default function Brands() {
                 alt={`brand-${i}`}
                 width={150}
                 height={60}
-                unoptimized   // IMPORTANT for external URLs
+                unoptimized  
                 className="object-contain"
               />
             </div>
